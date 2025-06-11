@@ -25,6 +25,8 @@
 
 Developed using **C++** and the **Simple and Fast Multimedia Library (SFML)**, this project focuses on interactive gameplay, keyboard controls, and retro-inspired game mechanics. The UI is built using SFML's graphics module, and everything runs in real time.
 
+This game was created as part of the **first semester Programming Fundamentals course**.
+
 ---
 
 ## 🎮 Games Included
@@ -60,6 +62,7 @@ Developed using **C++** and the **Simple and Fast Multimedia Library (SFML)**, t
 - ✅ Designed and compiled in **Visual Studio**
 - 🔁 Replay functionality for each game
 - 💡 Minimal dependencies (SFML only)
+- 🖼️ Custom assets: Includes `menu1.png` for main menu visuals and `arial.ttf` for clean, readable in-game fonts
 
 ---
 
@@ -95,6 +98,10 @@ Developed using **C++** and the **Simple and Fast Multimedia Library (SFML)**, t
        - `sfml-system-d.lib`
    - Copy `.dll` files from `SFML/bin/` to your project's `Debug` folder.
 
+> ✅ **Note**: The official `.cpp` and `.h` files provided in this project contain the complete gameplay logic.  
+> 🎨 The `menu1.png` file is used as the main menu background.  
+> 🔤 The font `arial.ttf` is used for all textual elements across the games.
+
 ---
 
 ## 🚀 Usage
@@ -113,8 +120,6 @@ Developed using **C++** and the **Simple and Fast Multimedia Library (SFML)**, t
 - `1 / 2 / 3` → Choose Hangman category
 - `W A S D` or Arrow Keys → Snake movement
 - `Alphabet Keys` → Word input
-
----
 
 ---
 
@@ -158,4 +163,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 > _"Built from scratch using C++ and SFML — No built-in libraries, just logic, graphics, and a love for old-school games."_
-
